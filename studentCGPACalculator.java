@@ -64,4 +64,9 @@ public class StudentCGPACalculatorGUI extends JFrame {
 
         mainPanel.add(scrollPane, BorderLayout.SOUTH);
 
+        add(mainPanel);
+    }
+
+    private JPanel createStudentPanel() {
+        JPanel panel = new JPanel(new GridLayout(4, 2, 10, 8));
        
