@@ -44,6 +44,8 @@ public class Course {
         this.grade = grade.toUpperCase();
     }
 
+    //grade point schema
+
     public int getGradePoint() {
         switch (grade) {
             case "A": return 5;
