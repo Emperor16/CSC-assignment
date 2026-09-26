@@ -34,6 +34,8 @@ public class Student extends Person {
         return courses;
     }
 
+
+    // Method to add course
     public void registerCourse(Course course) {
         courses.add(course);
     }
